@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- OGP画像 -->
+    <meta
+      property="og:url"
+      content="https://umekobu-web.com/work_2/wofit_folder/index.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="パーソナルジムwofit" />
+    <meta
+      property="og:description"
+      content="パーソナルジムwofitのホームページです。wofitでは女性向けに様々なトレーニングを提供します。"
+    />
+    <meta property="og:site_name" content="パーソナルジムwofit" />
+    <meta
+      property="og:image"
+      content="https://umekobu-web.com/work_2/wofit_folder/img/og_img.html"
+    />
+
+    <!-- Googleフォント読み込み -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Shippori+Mincho&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- swiper読み込み -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- CSS読み込み -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- ファビコン -->
+    <link rel="shortcut icon" href="./img/favicon.ico" />
+
+    <!-- タイトル・ディスクリプション -->
+    <meta
+      name="description"
+      content="パーソナルジムwofitのホームページです。wofitでは女性のお客様を対象に様々なトレーニングを提供します。"
+    />
+    <title>パーソナルジム wofit</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__contents">
+        <div class="header__icon">
+          <img src="./img/logo_img.png" alt="wofitのロゴ" />
+        </div>
+        <a href="" class="button header__button">入会はこちらから</a>
+      </div>
+    </header>
+
+    <div class="header__box">
+      <button class="header__menu" id="js--header__button">
+        <span class="header__bar"></span>
+        <span class="header__bar"></span>
+        <span class="header__bar"></span>
+      </button>
+    </div>
+
+    <div class="drawer" id="js--drawer">
+      <nav class="drawer__contents">
+        <ul class="drawer__list">
+          <li class="drawer__item"><a href="#program">Program</a></li>
+          <li class="drawer__item"><a href="#staff">Staff</a></li>
+          <li class="drawer__item"><a href="#price">Price</a></li>
+          <li class="drawer__item"><a href="#equipment">Equipment</a></li>
+          <li class="drawer__item"><a href="#access">Access</a></li>
+          <li class="drawer__item">
+            <a class="button drawer__item--button" href="#contact"
+              >入会はこちらから</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="mv">
+      <div class="mv__inner">
+        <div class="mv__contents">
+          <h1 class="mv__head">
+            <span class="mv__text">心地よい空間で、</span>
+            <span class="mv__text">あなただけの</span>
+            <span class="mv__text">トレーニングを。</span>
+          </h1>
+          <p class="mv__head--sub">
+            wofitは無理なく、心地よく。<br />
+            あなたに寄り添うパーソナルトレーニングです。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <span class="about__bg"></span>
+      <div class="section__inner">
+        <div class="about__contents">
+          <div class="about__img">
+            <img src="./img/about_img.jpg" alt="ヨガをする女性" />
+          </div>
+          <div class="about__textbox">
+            <h1 class="section__head heading--about">
+              <span class="section__head--main">About wofit</span>
+              <span class="section__head--sub">wofitについて</span>
+            </h1>
+            <div class="about__word">
+              <p class="about__text">
+                wofitでは、<br class="para__sp" />
+                一人ひとりの目標に寄り添い、最適なトレーニングプランを提供します。
+              </p>
+              <p class="about__text">
+                心と体の成長を<br class="para__sp" />
+                サポートするプログラムで、<br class="para__sp" />
+                充実した体験をお届けします。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="program" id="program">
+      <div class="section__inner">
+        <h1 class="section__head">
+          <span class="section__head--main">Pogram</span>
+          <span class="section__head--sub">wofitのプログラム</span>
+        </h1>
+        <div class="program__contents">
+          <p class="program__text">
+            wofitでは、一人ひとりのライフスタイルに合わせて様々なコースを用意しています。<br
+              class="para__pc"
+            />未経験の方から経験者の方までプロがサポートいたします。
+          </p>
+          <div class="program__list">
+            <div class="card__wrapper">
+              <span class="program__number">01</span>
+              <div class="program__card">
+                <div class="card__img">
+                  <img src="./img/card_1.png" alt="腹筋をする女性" />
+                </div>
+                <div class="card__contents">
+                  <h2 class="card__head">ビギナーコース</h2>
+                  <p class="card__text">
+                    運動が初めての方や久しぶりの方でも安心して取り組めるコースです。<br
+                      class="para__pc"
+                    />月1回のパーソナルトレーニングで、正しいトレーニングフォームから日々の食事までサポートします。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card__wrapper">
+              <span class="program__number">02</span>
+              <div class="program__card">
+                <div class="card__img">
+                  <img
+                    src="./img/card_2.png"
+                    alt="ランニングマシンに乗る女性"
+                  />
+                </div>
+                <div class="card__contents">
+                  <h2 class="card__head">スタンダードコース</h2>
+                  <p class="card__text">
+                    運動の基礎を身につけた方や、運動習慣を定着させたい方に最適なコースです。<br
+                      class="para__pc"
+                    />月2回のパーソナルトレーニングで、食事とトレーニングともにトータルにサポートします。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card__wrapper">
+              <span class="program__number">03</span>
+              <div class="program__card">
+                <div class="card__img">
+                  <img
+                    src="./img/card_3.png"
+                    alt="筋力トレーニングをする女性"
+                  />
+                </div>
+                <div class="card__contents">
+                  <h2 class="card__head">コンプリートコース</h2>
+                  <p class="card__text">
+                    理想のボディを目指し、トレーニング・食事・ライフスタイルまでトータルでサポートします。<br
+                      class="para__pc"
+                    />最大月4回パーソナルのとレーニングで、トレーニングを隅々までサポートします。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button__wrapper">
+            <a href="" class="button program__button">コース詳細はこちら</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- staff -->
+    <section class="staff" id="staff">
+      <div class="section__inner">
+        <h1 class="section__head">
+          <span class="section__head--main">Staff</span>
+          <span class="section__head--sub">wofitのスタッフ</span>
+        </h1>
+        <div class="staff__contents">
+          <p class="staff__text">
+            wofitのスタッフは、豊富な知識と経験を持つプロフェッショナルです。<br />
+            トレーニング理論や栄養学に精通しており、幅広い視点からお客様の目標達成をサポートします。
+          </p>
+          <div class="staff__list">
+            <div class="staff__card">
+              <div class="staff__img">
+                <img src="./img/staff_img1.jpg" alt="ジムトレーナー" />
+              </div>
+              <div class="staff__word">
+                <h2 class="staff__head">ジムトレーナー</h2>
+                <p class="staff__subject">
+                  トレーニング器具の使い方について詳しくサポートします。理想の体づくりを全力でサポートします。
+                </p>
+              </div>
+            </div>
+
+            <div class="staff__card">
+              <div class="staff__img">
+                <img src="./img/staff_img2.jpg" alt="ヨガトレーナー" />
+              </div>
+              <div class="staff__word">
+                <h2 class="staff__head">ヨガトレーナー</h2>
+                <p class="staff__subject">
+                  心と体の調和を大切にし、一人ひとりに寄り添った指導を行います。ヨガを用いて心地よい毎日をサポートします。
+                </p>
+              </div>
+            </div>
+
+            <div class="staff__card">
+              <div class="staff__img">
+                <img src="./img/staff__img3.jpg" alt="栄養管理士" />
+              </div>
+              <div class="staff__word">
+                <h2 class="staff__head">栄養管理士</h2>
+                <p class="staff__subject">
+                  バランスの取れた食事で健康的な体づくりをサポートします。無理のない栄養管理で、理想のライフスタイルへ導きます。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="button__wrapper">
+            <a href="" class="button staff__button">コース詳細はこちら</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- price -->
+    <section class="price" id="price">
+      <div class="section__inner">
+        <h1 class="section__head">
+          <span class="section__head--main">Price</span>
+          <span class="section__head--sub">wofitの料金</span>
+        </h1>
+        <div class="price__contents">
+          <p class="price__text">
+            wofitでは、お客様一人ひとりの目標やライフスタイルに合わせた料金プランをご用意しております。<br />短期集中型のプログラムから、じっくり取り組みたい方のための月額プランまで、柔軟に対応しています。
+          </p>
+          <div class="frame__wrapper">
+            <table class="price__frame">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>
+                    <div>
+                      <p class="course__main">ビギナー</p>
+                      <p class="course__sub">コース</p>
+                    </div>
+                  </th>
+                  <th>
+                    <div>
+                      <p class="course__main">スタンダード</p>
+                      <p class="course__sub">コース</p>
+                    </div>
+                  </th>
+                  <th>
+                    <div>
+                      <p class="course__main">コンプリート</p>
+                      <p class="course__sub">コース</p>
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>月会費</th>
+                  <td>4,000 <span class="fee__size">円</span></td>
+                  <td>8,000 <span class="fee__size">円</span></td>
+                  <td>10,000 <span class="fee__size">円</span></td>
+                </tr>
+
+                <tr>
+                  <th>パーソナル利用回数</th>
+                  <td>１回 <span class="month__size">/月</span></td>
+                  <td>２回 <span class="month__size">/月</span></td>
+                  <td>４回 <span class="month__size">/月</span></td>
+                </tr>
+
+                <tr>
+                  <th>ジム利用</th>
+                  <td>ー</td>
+                  <td>〇</td>
+                  <td>〇</td>
+                </tr>
+                <tr>
+                  <th>食事管理</th>
+                  <td>ー</td>
+                  <td>〇</td>
+                  <td>〇</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="button__wrapper">
+            <a href="" class="button price__button">お申し込みはこちら</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="equipment" id="equipment">
+      <div class="section__inner">
+        <h1 class="section__head">
+          <span class="section__head--main">Equipment</span>
+          <span class="section__head--sub">施設内の設備</span>
+        </h1>
+
+        <!-- Slider main container -->
+        <div class="swiper equipment__swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper equipment__wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide equipment__slide">
+              <div class="equipment__img">
+                <img src="./img/equipment_1.png" alt="ジムの設備" />
+              </div>
+            </div>
+            <div class="swiper-slide equipment__slide">
+              <div class="equipment__img">
+                <img src="./img/equipment_2.jpg" alt="ジムの設備" />
+              </div>
+            </div>
+            <div class="swiper-slide equipment__slide">
+              <div class="equipment__img">
+                <img src="./img/equipment_3.jpg" alt="ジムの設備" />
+              </div>
+            </div>
+            <div class="swiper-slide equipment__slide">
+              <div class="equipment__img">
+                <img src="./img/equipment_4.jpg" alt="ジムの設備" />
+              </div>
+            </div>
+            <div class="swiper-slide equipment__slide">
+              <div class="equipment__img">
+                <img src="./img/equipment_2.jpg" alt="ジムの設備" />
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination equipment__pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev equipment__prev"></div>
+          <div class="swiper-button-next equipment__next"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QA -->
+    <section class="qa" id="qa">
+      <div class="section__inner">
+        <h1 class="section__head">
+          <span class="section__head--main">Q&A</span>
+          <span class="section__head--sub">よくある質問</span>
+        </h1>
+        <div class="qa__contents">
+          <div class="qa__boxes">
+            <div class="qa__box is-open">
+              <button type="button" class="qa-box__head js-accordion">
+                <span class="qa-box__head-icon">Q</span>
+                <span class="qa-box__head-text"
+                  >パーソナルトレーニングがない日でもジムだけの利用はできますか？</span
+                >
+              </button>
+              <div class="qa-box__body" style="display: block">
+                <div class="qa-box__a">
+                  <span class="qa-box__a-icon">A</span>
+                  <span class="qa-box__a-text"
+                    >スタンダードコースとコンプリートコースを利用のお客様は日々のジム利用が可能です。</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="qa__box">
+              <button type="button" class="qa-box__head js-accordion">
+                <span class="qa-box__head-icon">Q</span>
+                <span class="qa-box__head-text"
+                  >入会前にトレーニングを体験することは可能ですか？</span
+                >
+              </button>
+              <div class="qa-box__body">
+                <div class="qa-box__a">
+                  <span class="qa-box__a-icon">A</span>
+                  <span class="qa-box__a-text"
+                    >スタンダードコースとコンプリートコースを利用のお客様は日々のジム利用が可能です。</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="qa__box">
+              <button type="button" class="qa-box__head js-accordion">
+                <span class="qa-box__head-icon">Q</span>
+                <span class="qa-box__head-text"
+                  >途中でコースを変更することはできますか？</span
+                >
+              </button>
+              <div class="qa-box__body">
+                <div class="qa-box__a">
+                  <span class="qa-box__a-icon">A</span>
+                  <span class="qa-box__a-text"
+                    >スタンダードコースとコンプリートコースを利用のお客様は日々のジム利用が可能です。</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="access" id="access">
+      <div class="section__inner">
+        <h1 class="section__head">
+          <span class="section__head--main">Access</span>
+          <span class="section__head--sub">アクセス</span>
+        </h1>
+        <div class="access__contents">
+          <div class="access__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.8319461296114!2d139.7644864764804!3d35.68113977258731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1737632147343!5m2!1sja!2sjp"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+
+          <div class="access__text">
+            <div class="access__detail">
+              <h2 class="access__head">所在地</h2>
+              <p class="access__item">
+                〒 111-111
+                <br />東京都新宿区1-1-1　森ビル4F <br /><span
+                  >(JR新宿駅西口より徒歩5分)</span
+                >
+              </p>
+            </div>
+            <div class="access__detail">
+              <h2 class="access__head">営業時間</h2>
+              <p class="access__item">9:00 ~ 21:00</p>
+            </div>
+            <div class="access__detail">
+              <h2 class="access__head">メールアドレス</h2>
+              <p class="access__item">wofit@email.com</p>
+            </div>
+            <div class="access__detail">
+              <h2 class="access__head">電話番号</h2>
+              <p class="access__item">050-1111-1111</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__inner">
+        <div class="footer__contents">
+          <div class="footer__logo">
+            <img src="./img/logo_img.png" alt="wofitのロゴ" />
+          </div>
+          <div class="footer__info">
+            <div class="footer__sns">
+              <a class="footer__sns--item">
+                <img src="./img/logo_x.png" alt="X/Twitterのロゴ" />
+              </a>
+              <a class="footer__sns--item">
+                <img src="./img/logo_facebook.png" alt="Facebookのロゴ" />
+              </a>
+              <a class="footer__sns--item">
+                <img src="./img/logo_instagram.png" alt="Instagramのロゴ" />
+              </a>
+            </div>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="">会社概要</a></li>
+              <li class="footer__item"><a href="">プライバシーポリシー</a></li>
+              <li class="footer__item"><a href="">採用情報</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- javaScript,ライブラリ読み込み -->
+    <script
+      async
+      src="https://www.instagram.com/static/bundles/es6/EmbedSDK.js/2fe3a16f6aeb.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
